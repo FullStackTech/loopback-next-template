@@ -1,0 +1,45 @@
+{
+  "name": "loopback-next-template",
+  "version": "1.0.0",
+  "description": "LoopBack Next Project Template",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullstacktech/loopback-next-template.git"
+  },
+  "keywords": [
+    "loopback",
+    "loopback",
+    "next",
+    "typescript",
+    "node.js"
+  ],
+  "author": "FullStack.Technology",
+  "bugs": {
+    "url": "https://github.com/fullstacktech/loopback-next-template/issues"
+  },
+  "homepage": "https://github.com/fullstacktech/loopback-next-template#readme",
+  "main": "dist/index.js",
+  "scripts": {
+    "prestart": "db-migrate up && (tsc -p . && echo ok || echo carry-on)",
+    "start": "node ./dist/index.js",
+    "local": "NODE_ENV=local npm start"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": "8.6.0"
+  },
+  "dependencies": {
+    "@loopback/authentication": "^4.0.0-alpha.10",
+    "@loopback/core": "^4.0.0-alpha.16",
+    "@loopback/repository": "^4.0.0-alpha.10",
+    "@loopback/rest": "^4.0.0-alpha.3",
+    "@types/node": "^8.0.34",
+    "@types/passport-jwt": "^2.0.24",
+    "db-migrate": "^0.10.0-beta.24",
+    "db-migrate-mysql": "^1.1.10",
+    "loopback-connector-mysql": "^5.1.0",
+    "passport-jwt": "^3.0.0",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.3"
+  }
+}
