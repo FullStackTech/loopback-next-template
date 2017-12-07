@@ -1,3 +1,5 @@
+import { OpenApiSpec } from '@loopback/openapi-spec';
+
 export const HealthControllerApiDefinition = {
     basePath: '/',
     paths: {

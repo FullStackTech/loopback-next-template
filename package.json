@@ -29,17 +29,19 @@
     "node": "8.6.0"
   },
   "dependencies": {
-    "@loopback/authentication": "^4.0.0-alpha.10",
-    "@loopback/core": "^4.0.0-alpha.16",
-    "@loopback/repository": "^4.0.0-alpha.10",
-    "@loopback/rest": "^4.0.0-alpha.3",
-    "@types/node": "^8.0.34",
+    "@loopback/authentication": "^4.0.0-alpha.19",
+    "@loopback/context": "^4.0.0-alpha.21",
+    "@loopback/core": "^4.0.0-alpha.23",
+    "@loopback/openapi-spec": "^4.0.0-alpha.16",
+    "@loopback/repository": "^4.0.0-alpha.17",
+    "@loopback/rest": "^4.0.0-alpha.12",
+    "@types/node": "^8.0.56",
     "@types/passport-jwt": "^2.0.24",
-    "db-migrate": "^0.10.0-beta.24",
+    "db-migrate": "^0.10.2",
     "db-migrate-mysql": "^1.1.10",
-    "loopback-connector-mysql": "^5.1.0",
-    "passport-jwt": "^3.0.0",
+    "loopback-connector-mysql": "^5.2.0",
+    "passport-jwt": "^3.0.1",
     "ts-node": "^3.3.0",
-    "typescript": "^2.5.3"
+    "typescript": "^2.6.2"
   }
 }
